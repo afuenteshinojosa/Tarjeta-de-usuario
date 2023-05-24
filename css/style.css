@@ -1,0 +1,45 @@
+body{
+    font-family: 'Kalam', cursive;
+}
+.imagenUsuario{
+    width: 80px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    border:2px solid rgb(163, 163, 163);
+    border-radius: 50%;
+    padding: 0px; 
+
+}
+.tarjetaUsuario{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 2px solid rgba(160, 160, 160);
+}
+
+header{
+    background-color: rgb(19, 178, 178);
+    position: relative;
+    height: 80px;
+}
+main{
+    padding: 10px;
+}
+.nombreUsuario{
+    margin-top: 35px;
+}
+.clasificacion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ubicacion, .edicion{
+    float: left;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.icono{
+    width: 15px;
+}
